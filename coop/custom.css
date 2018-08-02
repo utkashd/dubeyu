@@ -30,6 +30,7 @@ body > .page {
 .footer > .container {
 	padding-right: 15px;
 	padding-left: 15px;
+	z-index: 16777270; /* because 000webhost covers my footer navbar */
 }
 
 code {
