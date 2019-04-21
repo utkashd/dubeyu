@@ -28,7 +28,7 @@
 				<div class="bordered">
 					<h4>About</h4>
 					<p>
-						I am an <a href="https://www.cis.upenn.edu/prospective-students/graduate/mse.php" name="real">MSE/CIS</a> student at the <a href="https://www.upenn.edu/" name="real">University of Pennsylvania</a>. <br>
+						I am an <a href="https://www.cis.upenn.edu/prospective-students/graduate/mse.php" name="real">CIS/MSE</a> student at the <a href="https://www.upenn.edu/" name="real">University of Pennsylvania</a>. <br>
 
 						<br>I graduated from the <a href="https://www.usc.edu/" name="real">University of Southern California</a> in 2017 with undergraduate degrees in Computer Science and Applied and Computational Mathematics.
 					</p>
@@ -77,11 +77,31 @@
 							<i class="fab fa-twitter-square"></i>
 						</span>
 					</a>
-					<a href="resume.pdf" name="real" style="text-decoration: none;">
+					<a href="#" style="text-decoration: none;" target="_top" data-toggle="modal" data-target="#resumeModal">
 						<span style="font-size: 32px; color: #000;">
 							<i class="fas fa-id-card"></i>
 						</span>
 					</a>
+					<div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="resumeModalLabel">
+										Resume
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</h5>
+								</div>
+								<div class="modal-body">
+									Please send an email to utkashd at gmail dot com
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="middle-panel">
@@ -251,20 +271,40 @@
 					</div>
 					<div class="tab-pane fade" id="lists-panel" role="tabpanel">
 						<h4>Lists</h4>
-						I can't be the only one who likes to make lists of stuff.
+						Lists of stuff with almost no justification
 						<div id="lists-accordion" style="padding-top: 25px;" role="tablist" aria-multiselectable="false">
 							<div class="card">
 								<a data-toggle="collapse" data-parent="#lists-accordion" href="#collapseListsFoods" aria-expanded="false" aria-controls="collapseListsFoods">
 									<div class="card-header" role="tab" id="lists-foods">
-										<h5 class="mb-0">Favorite Foods</h5>
+										<h5 class="mb-0">Favorite Foods &amp; Snacks</h5>
 									</div>
 								</a>
 								<div id="collapseListsFoods" class="collapse" role="tabpanel" aria-labelledby="lists-foods">
 									<div class="card-block">
-										<p>Last updated July 17, 2018</p>
-										<p>1. Taco Bell</p>
-										<p>2. Chipotle</p>
-										<p>3. ???</p>
+										<p>Taco Bell</p>
+										<p>Chipotle</p>
+										<p>Pizza</p>
+										<p>Doritos</p>
+										<p>Oreos</p>
+										<p>Baked Hot Cheetos</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<a data-toggle="collapse" data-parent="#lists-accordion" href="#collapseListsCars" aria-expanded="false" aria-controls="collapseListsCars">
+									<div class="card-header" role="tab" id="lists-cars">
+										<h5 class="mb-0">Cool Cars</h5>
+									</div>
+								</a>
+								<div id="collapseListsCars" class="collapse" role="tabpanel" aria-labelledby="lists-cars">
+									<div class="card-block">
+										<p>R34 Skyline</p>
+										<p>NSX</p>
+										<p>Lexus LC500</p>
+										<p>S15</p>
+										<p>R33 Skyline</p>
+										<p>Supra Turbo</p>
+										<p>3000GT VR-4</p>
 									</div>
 								</div>
 							</div>
@@ -276,31 +316,28 @@
 								</a>
 								<div id="collapseListsJerseys" class="collapse" role="tabpanel" aria-labelledby="lists-jerseys">
 									<div class="card-block">
-										<p>Last updated July 27, 2018</p>
-										<p>1. LeBron 17-18 Cavaliers</p>
-										<p>2. Derrick Rose Bulls</p>
-										<p>3. Kevin Durant OKC</p>
-										<p>4. Tim Duncan</p>
-										<p>5. Chris Webber Kings</p>
-										<p>6. Kawhi Leonard Spurs (Adidas)</p>
-										<p>7. Jayson Tatum</p>
-										<p>8. Kobe Bryant #8</p>
-										<p>9. Tracy McGracy Rockets</p>
-										<p>10. Vince Carter Raptors</p>
-										<p>11. Dwyane Wade Heat ("Vice")</p>
-										<p>12. Paul George #24</p>
-										<p>13. Dwight Howard Magic</p>
-										<p>14. Charles Barkley Suns</p>
-										<p>15. David Robinson</p>
-										<p>16. Donovan Mitchell</p>
-										<p>17. Tony Allen Grizzlies</p>
-										<p>18. DeMar DeRozan 17-18 Raptors</p>
-										<p>19. Joe Johnson Nets</p>
-										<p>20. Amar'e Stoudemire Knicks</p>
+										<p>LeBron 17-18 Cavaliers</p>
+										<p>Derrick Rose Bulls</p>
+										<p>Kevin Durant OKC</p>
+										<p>Tim Duncan</p>
+										<p>Chris Webber Kings</p>
+										<p>Kawhi Leonard Spurs (Adidas)</p>
+										<p>Jayson Tatum</p>
+										<p>Kobe Bryant #8</p>
+										<p>Tracy McGracy Rockets</p>
+										<p>Vince Carter Raptors</p>
+										<p>Dwyane Wade Heat ("Vice")</p>
+										<p>Paul George Pacers #24</p>
+										<p>Dwight Howard Magic</p>
+										<p>Charles Barkley Suns</p>
+										<p>Donovan Mitchell</p>
+										<p>Tony Allen Grizzlies</p>
+										<p>Joe Johnson Nets</p>
+										<p>Amar'e Stoudemire Knicks</p>
 									</div>
 								</div>
 							</div>
-							<!--<div class="card">
+							<div class="card">
 								<a data-toggle="collapse" data-parent="#lists-accordion" href="#collapseListsVideosOne" aria-expanded="false" aria-controls="collapseListsVideosOne">
 									<div class="card-header" role="tab" id="lists-videos">
 										<h5 class="mb-0">Entertaining Videos</h5>
@@ -437,11 +474,13 @@
 
 										<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LM6BxBHH79k?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 										<br><br>
-
+										
+										<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4CTJEZXtr94?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+										<br><br>
 
 									</div>
 								</div>
-							</div>-->
+							</div>
 						</div>
 					</div>
 				</div>
